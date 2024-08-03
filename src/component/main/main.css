@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.nav-dar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+
+}
+@media(max-width:890px){
+    .logo-dar{ display: flex;
+    display: flex;
+    justify-content: center;
+     
+    }
+ }
+
+@media(max-width:890px){
+    .list-logo{ display: flex;
+     width: 70%;
+     padding: 10px 20px;
+     
+    }
+ }
+
+@media(max-width:890px){
+   .nav-dar{ display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    
+   }
+}
+
+.list-dar{
+    list-style: none;
+    display: flex;
+    padding: 55px 35px;
+    gap: 20px;
+}
+
+@media(max-width:890px){
+    .list-dar{  list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 5px 0px;
+        gap: 10px;
+        font-size:.8rem;
+    }
+ }
+ 
+
+header{
+    display: flex;
+    width: auto;
+    height: 300px;
+    padding: 0px 200px;
+    background-color: #495E57;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+    
+}
+
+@media(max-width:890px){
+    header{
+        padding: 0;
+    }
+}
+
+.logo{
+    display: flex;
+    border: 2px solid black;
+    width: 40%;
+    height: 90%;
+    margin: 15px 40px;
+    border-radius: 20px;
+
+
+    
+}
+
+@media(max-width:890px){
+
+
+    .logo{
+        display: flex;
+        border: 2px solid black;
+        width: 30%;
+        height: 60%;
+        margin: 40px 20px;
+        border-radius: 20px;
+
+
+        
+    }
+}
+
+
+
+@media(max-width:890px){
+    header{ width: 100%;
+
+    }
+ }
+ .about{
+    padding: 20px 30px;
+
+    h1{
+      color: rgb(211, 211, 84);
+    }
+   button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 84);
+    color:#fff;
+   }
+ }
+
+.list-one{
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    
+    
+ }
+
+
+
+
+ @media(max-width:890px){
+    .sec-one{
+    
+   
+        background-image: url(/src/Assets/outdore.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 80px ;
+        
+        height: 90%;
+        width: 50%;
+        margin-top: 10px;
+
+     }
+ }
+
+ @media(max-width:890px){
+    .sec-two{
+    
+   
+        background-image: url(/src/Assets/outdore.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90%;
+        width: 50%;
+        margin-top: 10px;
+        padding-top: 80px ;
+
+     }
+ }
+
+ .sec-one{
+    
+   
+    background-image: url(/src/Assets/outdore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 50%;
+    padding-top: 70px ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 10px;
+    justify-content: end;
+
+    
+ }
+
+ .sec-two{
+    
+    background-image: url(/src/Assets/indore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 10px;
+    justify-content: end;
+    height: 90%;
+    width: 50%;
+    padding-top: 70px ;
+   
+ }
+
+ .para{
+    color:  rgb(71, 71, 27);
+ }
+b{
+    color: #b3b15c;
+}
+ 
+.btn-btn{
+    padding: 10px 10px;
+    margin:20px 20px ;
+    background-color: #b3b15c;
+   
+    color: #fff;
+
+}
+
+
+
+#box{
+    color:#e7e4e4 ;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.aboutt{
+ width: 50%;
+ height: 20%;
+background-color: #b3b15c;
+ padding: 0px 12px;
+ margin: 0 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 0px 0 50px 20px;
+ 
+ 
+}
+@media(max-width:890px){
+    .btn-btn{
+        padding: 10px 10px;
+        margin-top: 20px;
+    } 
+}
+
+#table{
+    padding: 10px 20px ;
+    margin: 20px;
+    background-color: #b3b15c;
+    color: #fff;
+
+}
+.grid-one{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sub{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color:#495E57;
+
+    button{
+        margin-bottom: 30px;
+        padding: 10px 30px ;
+        background-color: #b3b15c;
+        color: #fff;
+    }
+}
+
+main{
+    background-color: #495E57;
+}
