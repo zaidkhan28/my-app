@@ -4,6 +4,10 @@ import photo from "../../Assets/restauranfood.jpg"
 import { Link } from 'react-router-dom'
 import "./main.css"
 
+
+
+
+
 const Reservations = () => {
   const [alertt,setalertt] = useState(null);
 
@@ -111,6 +115,7 @@ const Reservations = () => {
    
    </div>
 
+   
 
    </>
 

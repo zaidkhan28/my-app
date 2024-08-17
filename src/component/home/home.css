@@ -229,7 +229,7 @@ li{
 @media(max-width:820px){
     .singleDestination{
         width: 45%;
-        height: 300px;
+        height: 270px;
         border: 2px solid black;
         background-color: rgb(194, 189, 189);
         z-index: 2;
