@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import Logo from "../../Assets/Logo.jpg"
 import photo from "../../Assets/restauranfood.jpg"
 import { Link } from 'react-router-dom'
@@ -9,13 +9,9 @@ import "./main.css"
 
 
 const Reservations = () => {
-  const [alertt,setalertt] = useState(null);
+ 
 
-  const toggle = ()=>{
-    
-    setalertt ("Thank's to Reservation table in little lemon " )
-    
-  }
+ 
 
   return (
   <>
@@ -110,7 +106,7 @@ const Reservations = () => {
 
     </form>
     <div className='sub'>
-    <button onClick={toggle}>submit {alertt}</button>
+    <button onClick={toggle}>submit</button>
     </div>
    
    </div>
